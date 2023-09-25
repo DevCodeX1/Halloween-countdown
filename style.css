@@ -4,6 +4,7 @@
     font-family: 'Nosifer', sans-serif;
     box-sizing: border-box;
 }
+
 h1{
     color: red;
     text-align: center;
@@ -183,4 +184,53 @@ div.content {
         text-align: center;
         float: none;
     }
+}
+
+
+/* Form for contacts.html*/
+
+form {
+    border: 3px solid #000000;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    position: relative;
+    top: 300px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 200px;
+    color: #f70808;
+}
+
+input,
+select,
+textarea {
+    flex: 1;
+    padding: 3px 5px;
+    color: #f70808;
+}
+
+.submit-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    width: 200px;
+    margin: 0 auto;
+    background-color: black;
+    color: rgb(247, 15, 15);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
