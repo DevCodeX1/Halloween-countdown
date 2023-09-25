@@ -135,7 +135,8 @@ h1{
 /* Sidebar links */
 .sidebar a {
     display: block;
-    color: rgb(216, 11, 11);
+    color: rgb(2, 1, 1);
+    font-size: 20px;
     padding: 16px;
     text-decoration: none;
 }
