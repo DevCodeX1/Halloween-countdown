@@ -14,7 +14,7 @@ h1{
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: url(./images/halloween.jpg);
+    background-image: url(./images/halloween-background-with-scary-pumpkins-candles-graveyard-night-with-castle-background.jpg);
     background-position: center;
     background-size: cover;
     padding: 0 8%;
@@ -40,11 +40,10 @@ h1{
     font-size: 60px;
     font-weight: 600;
 }
+
 .content h1 span{
     color: black;
 }
-
-
 
 .content button img {
     width: 30px;
@@ -55,6 +54,7 @@ h1{
     display: flex;
    
 }
+
 .launch-time div{
     flex-basis: 300px;
     color: rgb(0, 0, 0);
@@ -74,7 +74,6 @@ h1{
     right: 10%;
     bottom: 0;
     animation: demon 4s linear infinite;
-    
 }
 @keyframes demon {
     0%{
@@ -98,24 +97,8 @@ h1{
     
 }
 .content p{
-    color: rgb(255, 0, 0);
+    color: rgb(240, 6, 6);
     
-}
-
-.content button {
-    background: transparent;
-    border: 2px solid rgb(254, 0, 0);
-    border-radius: 8px;
-    padding: 12px 15px;
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    cursor: pointer;
-    position: absolute;
-    left: 510px;
-    top: -200px;
-    
-    color: orange;
 }
 
 .container .sidebar img{
@@ -147,7 +130,7 @@ h1{
 
 /* Active/current link */
 .sidebar a.active {
-    background-color: #970404;
+    background-color: #f00a0a;
     color: rgb(255, 111, 9);
 }
 
@@ -161,7 +144,12 @@ h1{
 div.content {
     margin-left: 200px;
     padding: 1px 16px;
-    height: 1000px;
+    height: 1500px;
+}
+
+div.alien-container{
+    width: 60vw;
+    position: fixed;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -180,6 +168,7 @@ div.content {
         margin-left: 0;
     }
 }
+
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
@@ -217,7 +206,7 @@ select,
 textarea {
     flex: 1;
     padding: 3px 5px;
-    color: #f70808;
+    color: #e20808;
 }
 
 .submit-group {
@@ -243,10 +232,10 @@ button {
     border: solid 3px red;
     border-radius: 10px;
     width: 800px;
-    height: 400px;
-    top: 900px;
-    left: 20%;
-    position: relative;
+    height: 450px;
+    
+    
+    
 }
 
 .alien-container img{
@@ -282,9 +271,7 @@ button {
     width: 50px;
     
    }
-    .content p{
-        
-    }
+ 
 
    .launch-time{
     flex-direction: column;
