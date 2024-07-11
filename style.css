@@ -14,7 +14,6 @@ h1{
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: url(./images/halloween-background-with-scary-pumpkins-candles-graveyard-night-with-castle-background.jpg);
     background-position: center;
     background-size: cover;
     padding: 0 8%;
@@ -28,12 +27,18 @@ h1{
 
 .content{
     top: 75%;
-    left: 20%;
+    left: 30%;
     position: absolute;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
     text-align: center;
     font-size: 30px;
     
+}
+
+.btn{
+    color: #2908e2;
+    position: relative;
+    border: 3px solid green;
 }
 
 .content h1 {
@@ -58,7 +63,6 @@ h1{
 .launch-time div{
     flex-basis: 300px;
     color: rgb(0, 0, 0);
-    text-align: center;
    
 }
 .launch-time div p{
@@ -141,15 +145,15 @@ h1{
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-div.content {
+.content {
     margin-left: 200px;
     padding: 1px 16px;
     height: 1500px;
 }
 
-div.alien-container{
+.alien-container{
     width: 60vw;
-    position: fixed;
+    
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
