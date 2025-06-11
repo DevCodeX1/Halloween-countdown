@@ -1,151 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap"
-      rel="stylesheet"
-    />
-    <title>Halloween Countdown</title>
-  </head>
-  <body>
-    <section class="container">
-      <div class="sidebar">
-        <a class="active" href="index.html"
-        >Home <img src="images/icons8-halloween-48.png" alt="pumpkin"
-        /></a>
-        <a href="#"
-        >Contact <img src="images/icons8-halloween-48.png" alt="pumpkin"
-        /></a>
-        <a href="#about"
-        >About <img src="images/icons8-halloween-48.png" alt="pumpkin"
-        /></a>
-        <a href="https://www.facebook.com/XzoticGamerzz"
-        ><img src="images/icon-facebook.svg" alt="pumpkin"
-        /></a>
-        <a href="https://www.linkedin.com/in/david-hawley-5936a817a/"
-        ><img src="images/icons8-linkedin-50.png" alt="pumpkin"
-        /></a>
-        <a href="https://github.com/DevCodeX1"
-        >Git<img src="images/icons8-github.svg" alt="pumpkin"
-        /></a>
-      </div>
-      <img
-      src="images/halloween-demon-eyes-and-mouth-outlines.png"
-      class="demon"
-      />
-      <video src="./images/184576-873564667_medium.mp4" muted loop autoplay></video>
-      <div class="audio">
-      </div>
-    </section>
-    
-    <audio
-      controls
-      autoplay
-      loop
-      hidden
-      src="/spooky-halloween-effects-with-thunder-121665.mp3"
-      ></audio>
-    <section>
-      <div class="content">
-        <img id="hallo-img" src="images/halloween.png" alt="logo" />
-        <p><span>Halloween</span> Countdown</p>
-        <h1>Happy<span>Halloween</span></h1>
-        <div class="launch-time">
-          <div>
-            <p id="days">00</p>
-            <span>Days</span>
-          </div>
-          <div>
-            <p id="hours">00</p>
-            <span>Hours</span>
-          </div>
-          <div>
-            <p id="minutes">00</p>
-            <span>Minutes</span>
-          </div>
-          <div>
-            <p id="seconds">00</p>
-            <span>Seconds</span>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet" />
+  <title>Halloween Countdown</title>
+</head>
+
+<body>
+  <section class="container">
+    <div class="sidebar">
+      <a class="active" href="index.html">Home <img src="images/icons8-halloween-48.png" alt="pumpkin" /></a>
+      <a href="#">Contact <img src="images/icons8-halloween-48.png" alt="pumpkin" /></a>
+      <a href="#about">About <img src="images/icons8-halloween-48.png" alt="pumpkin" /></a>
+      <a href="https://www.facebook.com/XzoticGamerzz"><img src="images/icon-facebook.svg" alt="pumpkin" /></a>
+      <a href="https://www.linkedin.com/in/david-hawley-5936a817a/"><img src="images/icons8-linkedin-50.png"
+          alt="pumpkin" /></a>
+      <a href="https://github.com/DevCodeX1">Git<img src="images/icons8-github.svg" alt="pumpkin" /></a>
+    </div>
+    <img src="images/halloween-demon-eyes-and-mouth-outlines.png" class="demon" />
+    <video src="./images/184576-873564667_medium.mp4" muted loop autoplay></video>
+    <div class="audio">
+    </div>
+  </section>
+
+  <audio controls autoplay loop hidden src="/spooky-halloween-effects-with-thunder-121665.mp3"></audio>
+  <section>
+    <div class="content">
+      <img id="hallo-img" src="images/halloween.png" alt="logo" />
+      <p><span>Halloween</span> Countdown</p>
+      <h1>Happy<span>Halloween</span></h1>
+      <div class="launch-time">
+        <div>
+          <p id="days">00</p>
+          <span>Days</span>
         </div>
-        <div class="alien-container">
-          <img src="images/fantasy-2847724_1280.jpg" />
-          <img src="images/jack-o-lanterns-5674148_1280.jpg" alt="" />
-          <p>Click If You Dare</p>
-          <a href="/Jump Scare Video  FlexClip.mp4"
-          ><button class="btn">Dont Click</button></a
-          >
-          <form>
-            <div class="input-group">
-              <label for="fname">Firstname</label>
-              <input
-              id="fname"
-              name="fname"
-              placeholder="Enter firstname"
-              required="required"
-              />
-            </div>
-            <div class="input-group">
-              <label for="lname">Lastname</label>
-              <input
-              id="lname"
-              name="lname"
-              placeholder="Enter lastname"
-              required="required"
-              />
-            </div>
-            <div class="input-group">
-              <label for="email">Email</label>
-              <input
-              id="email"
-              type="email"
-              name="email"
-              placeholder="Enter your email"
-              />
-            </div>
-            <div class="input-group">
-              <label>Country</label>
-              <select name="country" id="country" required="required">
-                <option value="" selected="selected">Select country</option>
-                <option value="Afghanistan">Afghanistan</option>
-                <option value="Albania">Albania</option>
-                <option value="Algeria">Algeria</option>
-                <option value="America">America</option>
-                <option value="Andorra">Andorra</option>
-                <option value="Angola">Angola</option>
-                <option value="Anguilla">Anguilla</option>
-                <option value="Antarctica">Antarctica</option>
-              </select>
-            </div>
-            <div class="input-group">
-              <label for="message">Any message?</label>
-              <textarea
-              id="message"
-              name="message"
-              placeholder="Optional"
-              ></textarea>
-            </div>
-            <div class="submit-group">
-              <button type="submit">Submit form</button>
-            </div>
-          </form>
+        <div>
+          <p id="hours">00</p>
+          <span>Hours</span>
+        </div>
+        <div>
+          <p id="minutes">00</p>
+          <span>Minutes</span>
+        </div>
+        <div>
+          <p id="seconds">00</p>
+          <span>Seconds</span>
         </div>
       </div>
-    </section>
-    
-    <script src="script.js"></script>
-  </body>
-  </html>
-  
+      <div class="alien-container">
+        <img src="images/fantasy-2847724_1280.jpg" />
+        <img src="images/jack-o-lanterns-5674148_1280.jpg" alt="" />
+        <p>Click If You Dare</p>
+        <a href="/Jump Scare Video  FlexClip.mp4"><button class="btn">Dont Click</button></a>
+        <form>
+          <div class="input-group">
+            <label for="fname">Firstname</label>
+            <input id="fname" name="fname" placeholder="Enter firstname" required="required" />
+          </div>
+          <div class="input-group">
+            <label for="lname">Lastname</label>
+            <input id="lname" name="lname" placeholder="Enter lastname" required="required" />
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email" />
+          </div>
+          <div class="input-group">
+            <label>Country</label>
+            <select name="country" id="country" required="required">
+              <option value="" selected="selected">Select country</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Albania">Albania</option>
+              <option value="Algeria">Algeria</option>
+              <option value="America">America</option>
+              <option value="Andorra">Andorra</option>
+              <option value="Angola">Angola</option>
+              <option value="Anguilla">Anguilla</option>
+              <option value="Antarctica">Antarctica</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="message">Any message?</label>
+            <textarea id="message" name="message" placeholder="Optional"></textarea>
+          </div>
+          <div class="submit-group">
+            <button type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
